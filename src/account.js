@@ -20,7 +20,8 @@ class Account {
     }
 
     withdraw (amount) {
-      if (amount > this.balance) return "Insufficient funds";
+      if (amount > this.balance)
+      return "Insufficient funds";
       this.balance -= amount
       this.addTransaction({debit: amount, balance: this.balance});
       return this.addMessage(amount, 'withdraw');

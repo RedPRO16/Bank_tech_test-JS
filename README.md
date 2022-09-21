@@ -19,10 +19,10 @@ You'll work alone, and you'll also review your own code so you can practice refl
 
 ### Acceptance criteria
 
-**Given** a client makes a deposit of 1000 on 10-01-2023  
-**And** a deposit of 2000 on 13-01-2023  
-**And** a withdrawal of 500 on 14-01-2023  
-**When** she prints her bank statement  
+**Given** a client makes a deposit of 1000 on 10-01-2023
+**And** a deposit of 2000 on 13-01-2023
+**And** a withdrawal of 500 on 14-01-2023
+**When** she prints her bank statement
 **Then** she would see
 
 ```
@@ -36,12 +36,51 @@ date || credit || debit || balance
 
 Once you have completed the challenge and feel happy with your solution, here's a form to help you reflect on the quality of your code: https://docs.google.com/forms/d/1Q-NnqVObbGLDHxlvbUfeAC7yBCf3eCjTmz6GOqC9Aeo/edit
 
-<!-- BEGIN GENERATED SECTION DO NOT EDIT -->
 
----
+## Dependencies
 
-**How was this resource?**  
-[😫](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=individual_challenges/bank_tech_test.md&prefill_Sentiment=😫) [😕](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=individual_challenges/bank_tech_test.md&prefill_Sentiment=😕) [😐](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=individual_challenges/bank_tech_test.md&prefill_Sentiment=😐) [🙂](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=individual_challenges/bank_tech_test.md&prefill_Sentiment=🙂) [😀](https://airtable.com/shrUJ3t7KLMqVRFKR?prefill_Repository=makersacademy/course&prefill_File=individual_challenges/bank_tech_test.md&prefill_Sentiment=😀)  
-Click an emoji to tell us.
+**Production:**
+<br>
+**[Moment]** - Time formatting library.
 
-<!-- END GENERATED SECTION DO NOT EDIT -->
+**Development:**
+<br>
+**[MockDate]** - A JavaScript mockdate object used to change when "now" is for testing purposes.
+<br>
+**[Jest]** - JavaScript testing framework.
+
+
+<!-- dependency links -->
+[Moment]: https://momentjs.com/
+[MockDate]: https://www.npmjs.com/package/mockdate
+[Jest]: https://jestjs.io/
+
+<!-- project link -->
+[available here]: git@github.com:RedPRO16/bank_tech_JS.git
+
+## Quick Start
+
+1. Clone this repo
+2. Install dependencies with:
+```
+$ npm install
+```
+3. Run tests with:
+```
+$ npm test
+```
+4. Run the Node REPL:
+```
+$ node
+```
+5. Use the account with the following functions:
+
+| **Function** | **Description** |
+|--------------|-----------------|
+| > const Account = require('./src/account.js') | Require in `account.js`|
+| > let bankAccount = new Account(); | Create new account |
+| bankAccount.add(amount); | Deposit any value you choose into the account as the amount parameter |
+| bankAccount.withdraw(amount); | Withdraw any value you choose from the account as the amount parameter. Although account must have at least that balance or 'Insufficient funds" will be shown |
+| bankAccount.statement(); | Will print statement to teh screen showing transaction history including dates, amounts and balance after each transaction |
+
+Below is an example of what would be shown on the screen:
