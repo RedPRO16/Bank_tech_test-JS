@@ -28,14 +28,14 @@ describe('Account', () =>{
   it('should show on statement deposit with current balance', () => {
     account.add(100);
 
-    expect(account.add(900)).toEqual("900.00 deposited . Current balance :1000.00 ")
+    expect(account.add(900)).toEqual(" 900.00 deposited. Current balance: 1000.00 ")
 
   });
 
   it('should show on statement withdraw with left balance', () => {
     account.add(300);
 
-    expect(account.withdraw(150)).toEqual("150.00 withdraw. Current balance :150.00 ")
+    expect(account.withdraw(150)).toEqual(" 150.00 withdraw. Current balance: 150.00 ")
   });
 
   it('Should return message if user tries to withdraw more than they have', () => {

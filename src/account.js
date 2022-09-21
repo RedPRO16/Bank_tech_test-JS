@@ -1,5 +1,5 @@
 const Transaction = require('./transaction')
-const Print = require('./print')
+const Print = require('./print.js')
 const Format = require('./format')
 
 class Account {
