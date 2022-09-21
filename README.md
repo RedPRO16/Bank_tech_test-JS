@@ -77,7 +77,7 @@ $ node
 
 | **Function** | **Description** |
 |--------------|-----------------|
-| > const Account = require('./src/account.js') | Require in `account.js`|
+| > const Account = require('./src/account.js'); | Require in `account.js`|
 | > let bankAccount = new Account(); | Create new account |
 | bankAccount.add(amount); | Deposit any value you choose into the account as the amount parameter |
 | bankAccount.withdraw(amount); | Withdraw any value you choose from the account as the amount parameter. Although account must have at least that balance or 'Insufficient funds" will be shown |
