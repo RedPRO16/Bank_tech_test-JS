@@ -82,7 +82,19 @@ $ node
 | bankAccount.add(amount); | Deposit any value you choose into the account as the amount parameter |
 | bankAccount.withdraw(amount); | Withdraw any value you choose from the account as the amount parameter. Although account must have at least that balance or 'Insufficient funds" will be shown |
 | bankAccount.statement(); | Will print statement to teh screen showing transaction history including dates, amounts and balance after each transaction |
+## Testing
 
+To run tests
+
+```
+jest
+```
+
+To check test coverage
+
+```
+jest --coverage
+```
 Below is an example of what would be shown on the screen:
 
 ![Screenshot 2022-09-21 at 12 00 25](https://user-images.githubusercontent.com/40929562/191494068-d98d6acd-2352-480b-ad69-fc1936cf71fd.png)
