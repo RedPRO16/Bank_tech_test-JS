@@ -1,6 +1,6 @@
 
 // const { expect } = require('expect');
-const Account = require('../account')
+const Account = require('../src/account')
 
 describe('Account', () =>{
   let account;

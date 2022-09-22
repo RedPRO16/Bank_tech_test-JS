@@ -1,5 +1,5 @@
 
-const Print = require ('../print')
+const Print = require ('../src/print')
 
 describe('Print', () => {
 

@@ -1,9 +1,5 @@
-// const { expect } = require('expect');
-// const { beforeEach, it } = require('jest-circus');
-// const { expect } = require('expect');
-// const { beforeAll, afterAll, it } = require('jest-circus');
-// const { describe } = require('yargs');
-const Transaction = require('../transaction');
+
+const Transaction = require('../src/transaction');
 
 describe('Transaction', () => {
   let transaction;
