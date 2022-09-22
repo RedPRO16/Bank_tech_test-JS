@@ -89,17 +89,15 @@ To run tests
 ```
 jest
 ```
+Below is an example of what would be shown on the screen:
+
+![Screenshot 2022-09-21 at 12 00 25](https://user-images.githubusercontent.com/40929562/191494068-d98d6acd-2352-480b-ad69-fc1936cf71fd.png)
 
 To check test coverage
 
 ```
 jest --coverage
 ```
-Below is an example of what would be shown on the screen:
-
-![Screenshot 2022-09-21 at 12 00 25](https://user-images.githubusercontent.com/40929562/191494068-d98d6acd-2352-480b-ad69-fc1936cf71fd.png)
-
-
 Test coverage is > %95
 
 ![Screenshot 2022-09-21 at 21 43 21](https://user-images.githubusercontent.com/40929562/191606981-3f68d719-8bfc-4daa-aa19-7ce2d1f11b18.png)
