@@ -1,4 +1,4 @@
-# Bank tech test
+# Bank tech test Javascript version 
 
 Today, you'll practice doing a tech test.
 
